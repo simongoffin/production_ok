@@ -1,0 +1,38 @@
+2014-04-20 13:12:17,728 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 13:12:17,732 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/initialize
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/premkvirtualenv
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postmkvirtualenv
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/prermvirtualenv
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postrmvirtualenv
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/predeactivate
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postdeactivate
+2014-04-20 13:12:17,733 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/preactivate
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postactivate
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/get_env_details
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/premkproject
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postmkproject
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/prermproject
+2014-04-20 13:12:17,734 INFO virtualenvwrapper.user_scripts creating /home/poleposit/.virtualenvs/postrmproject
+2014-04-20 13:12:17,739 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-NhNcJR3oDl
+2014-04-20 13:12:18,224 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 13:12:18,233 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-f4Wo2jBhY8
+2014-04-20 16:50:52,077 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 16:50:52,086 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-RpDLPQYtQO
+2014-04-20 16:50:52,686 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 16:50:52,710 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-zoEaysgnjP
+2014-04-20 18:45:25,071 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 18:45:25,079 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-0JnplSNOWW
+2014-04-20 18:45:25,634 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 18:45:25,658 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-Ut2rHKP8Sa
+2014-04-20 19:45:21,751 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 19:45:21,760 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-lcL7IyOo6a
+2014-04-20 19:45:22,467 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-20 19:45:22,484 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-m80FJ8YDh3
+2014-04-21 08:13:31,253 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-21 08:13:31,277 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-ESRPodbXEV
+2014-04-21 08:13:31,850 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-21 08:13:31,859 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-58g2OkweRY
+2014-04-22 09:01:13,330 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-22 09:01:13,353 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-vJLm3aEFzG
+2014-04-22 09:01:14,057 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-22 09:01:14,081 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-B1jkRUR4cW

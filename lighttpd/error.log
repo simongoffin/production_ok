@@ -1,0 +1,123 @@
+2014-04-20 12:34:12: (log.c.164) server started 
+2014-04-21 14:48:21: (server.c.1558) server stopped by UID = 4209 PID = 18753 
+2014-04-21 15:08:35: (log.c.164) server started 
+2014-04-21 15:10:06: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 15:10:06: (server.c.1558) server stopped by UID = 4209 PID = 20965 
+2014-04-21 15:11:26: (log.c.164) server started 
+2014-04-21 15:27:10: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 15:27:10: (server.c.1558) server stopped by UID = 4209 PID = 22556 
+2014-04-21 15:27:11: (log.c.164) server started 
+2014-04-21 15:27:45: (server.c.1558) server stopped by UID = 4209 PID = 22581 
+2014-04-21 15:27:45: (log.c.164) server started 
+2014-04-21 16:36:45: (server.c.1558) server stopped by UID = 4209 PID = 27987 
+2014-04-21 16:36:45: (log.c.164) server started 
+2014-04-21 16:37:41: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 16:37:41: (server.c.1558) server stopped by UID = 4209 PID = 28043 
+2014-04-21 16:37:42: (log.c.164) server started 
+2014-04-21 16:37:49: (server.c.1558) server stopped by UID = 4209 PID = 28054 
+2014-04-21 16:37:50: (log.c.164) server started 
+2014-04-21 16:39:33: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 16:39:33: (server.c.1558) server stopped by UID = 4209 PID = 28162 
+2014-04-21 16:39:34: (log.c.164) server started 
+2014-04-21 16:39:41: (server.c.1558) server stopped by UID = 4209 PID = 28180 
+2014-04-21 16:39:42: (log.c.164) server started 
+2014-04-21 17:55:24: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 17:55:24: (server.c.1558) server stopped by UID = 4209 PID = 31979 
+2014-04-21 17:55:25: (log.c.164) server started 
+2014-04-21 17:55:32: (server.c.1558) server stopped by UID = 4209 PID = 31994 
+2014-04-21 17:55:32: (log.c.164) server started 
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr: Traceback (most recent call last):
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 558, in run
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     protocolStatus, appStatus = self.server.handler(self)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 1118, in handler
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     result = self.application(environ, start_response)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.get_response(request)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 228, in handle_uncaught_exception
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     return callback(request, **param_dict)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     response = view_func(request, *args, **kwargs)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/views/defaults.py", line 32, in server_error
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     t = loader.get_template(template_name) # You need to create a 500.html template.
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 145, in get_template
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     template, origin = find_template(template_name)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 138, in find_template
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr:     raise TemplateDoesNotExist(name)
+2014-04-21 18:23:28: (mod_fastcgi.c.2695) FastCGI-stderr: TemplateDoesNotExist: 500.html
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr: Traceback (most recent call last):
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 558, in run
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     protocolStatus, appStatus = self.server.handler(self)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 1118, in handler
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     result = self.application(environ, start_response)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.get_response(request)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 228, in handle_uncaught_exception
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     return callback(request, **param_dict)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     response = view_func(request, *args, **kwargs)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/views/defaults.py", line 32, in server_error
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     t = loader.get_template(template_name) # You need to create a 500.html template.
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 145, in get_template
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     template, origin = find_template(template_name)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 138, in find_template
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr:     raise TemplateDoesNotExist(name)
+2014-04-21 18:24:41: (mod_fastcgi.c.2695) FastCGI-stderr: TemplateDoesNotExist: 500.html
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr: Traceback (most recent call last):
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 558, in run
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     protocolStatus, appStatus = self.server.handler(self)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 1118, in handler
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     result = self.application(environ, start_response)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.get_response(request)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 228, in handle_uncaught_exception
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     return callback(request, **param_dict)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     response = view_func(request, *args, **kwargs)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/views/defaults.py", line 32, in server_error
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     t = loader.get_template(template_name) # You need to create a 500.html template.
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 145, in get_template
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     template, origin = find_template(template_name)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 138, in find_template
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr:     raise TemplateDoesNotExist(name)
+2014-04-21 18:24:43: (mod_fastcgi.c.2695) FastCGI-stderr: TemplateDoesNotExist: 500.html
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr: Traceback (most recent call last):
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 558, in run
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     protocolStatus, appStatus = self.server.handler(self)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/flup/server/fcgi_base.py", line 1118, in handler
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     result = self.application(environ, start_response)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.get_response(request)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/core/handlers/base.py", line 228, in handle_uncaught_exception
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     return callback(request, **param_dict)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/utils/decorators.py", line 91, in _wrapped_view
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     response = view_func(request, *args, **kwargs)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/views/defaults.py", line 32, in server_error
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     t = loader.get_template(template_name) # You need to create a 500.html template.
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 145, in get_template
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     template, origin = find_template(template_name)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:   File "/usr/lib/python2.7/dist-packages/django/template/loader.py", line 138, in find_template
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr:     raise TemplateDoesNotExist(name)
+2014-04-21 19:02:04: (mod_fastcgi.c.2695) FastCGI-stderr: TemplateDoesNotExist: 500.html
+2014-04-21 21:47:46: (mod_fastcgi.c.1754) connect failed: Connection refused on unix:/home/poleposit/poleposition/poleposition.sock 
+2014-04-21 21:47:46: (mod_fastcgi.c.3021) backend died; we'll disable it for 1 seconds and send the request to another backend instead: reconnects: 0 load: 1 
+2014-04-21 21:47:48: (mod_fastcgi.c.2848) fcgi-server re-enabled: unix:/home/poleposit/poleposition/poleposition.sock 
+2014-04-21 22:02:21: (server.c.1558) server stopped by UID = 4209 PID = 16278 
+2014-04-21 22:02:22: (log.c.164) server started 
+2014-04-21 22:21:14: (server.c.1442) [note] graceful shutdown started 
+2014-04-21 22:21:14: (server.c.1558) server stopped by UID = 4209 PID = 18075 
+2014-04-21 22:21:15: (log.c.164) server started 
+2014-04-21 22:21:22: (server.c.1558) server stopped by UID = 4209 PID = 18085 
+2014-04-21 22:21:22: (log.c.164) server started 
+2014-04-21 23:08:39: (mod_fastcgi.c.1754) connect failed: Connection refused on unix:/home/poleposit/poleposition/poleposition.sock 
+2014-04-21 23:08:39: (mod_fastcgi.c.3021) backend died; we'll disable it for 1 seconds and send the request to another backend instead: reconnects: 0 load: 1 
+2014-04-21 23:08:41: (mod_fastcgi.c.2848) fcgi-server re-enabled: unix:/home/poleposit/poleposition/poleposition.sock 
+2014-04-21 23:09:28: (server.c.1558) server stopped by UID = 4209 PID = 21377 
+2014-04-21 23:09:29: (log.c.164) server started 
