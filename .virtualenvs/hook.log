@@ -36,3 +36,7 @@
 2014-04-22 09:01:13,353 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-vJLm3aEFzG
 2014-04-22 09:01:14,057 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
 2014-04-22 09:01:14,081 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-B1jkRUR4cW
+2014-04-23 12:58:38,550 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-23 12:58:38,559 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-vBWxpfbtmY
+2014-04-23 12:58:39,017 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
+2014-04-23 12:58:39,025 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-Axsx2Tqn0l

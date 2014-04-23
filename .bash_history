@@ -883,3 +883,138 @@ cd poleposition/
 ls
 vim settings_deployment.py 
 vim settings.py
+cd poleposition/
+ls
+cd templates/
+ls
+cd challenge/
+ls
+vim next.html 
+cd ../
+ls
+cd challenge/
+ls
+vim view.py
+ls
+vim views.py
+cd
+init/poleposition restart
+cd poleposition/
+ls
+cd chiffres/
+ls
+vim forms.py
+cd
+init/poleposition restart
+ls ~/.ssh/id_rsa.pub
+cd ~/.ssh
+ls -al
+ssh-keygen -t rsa -C "simon.goffin@outlook.com"
+ls
+vim id_rsa.pub 
+cd
+ssh -T git@github.com
+git status
+ls
+ls -a
+git init
+git add .
+git commit -m
+git commit -m 'Initial commit'
+git remote add origin git@github.com:simongoffin/Django_production.git
+git push -u origin master
+ls
+cd poleposition/
+ls
+sh RUN
+ls
+git status
+git add .
+git commit -a 
+git push
+git branch
+ls -a
+rm .git
+git remote add origin git@github.com:simongoffin/production_ok.git
+git init
+git commit -m 'Initial commit'
+git remote add origin git@github.com:simongoffin/production_ok.git
+cd
+git status
+git branch
+git push
+cd poleposition/
+ls
+cd static/
+ls
+cd ../
+cd
+git log
+git status
+git commit -a
+git push
+cd poleposition/
+ls
+git status
+ls
+git satus
+git status
+git push
+sh RUN
+git init
+git status
+git push
+git remote add origin git@github.com:simongoffin/production_ok.git
+cd
+git remote add origin git@github.com:simongoffin/production_ok.git
+cd poleposition/
+ls -a
+rm -r .git
+ls
+ls -a
+git status
+sh RUN
+cd
+ls
+git commit -a
+cd poleposition/
+ls
+cd static/
+ls
+cd
+cd poleposition/
+ls
+cd poleposition/
+ls
+ls -a
+cd ../
+git log
+git push
+cd
+ls
+cd poleposition/
+ls
+ls -a
+rm -rf .git
+ls
+ls -a
+cd ../
+ls -a
+rm -rf .git
+ls -a
+git init
+git commit -m "first commit"
+git add .
+git commit -m "first commit"
+git status
+git remote add origin git@github.com:simongoffin/production_ok.git
+git push -u origin master
+cd poleposition/
+sh RUN
+cd
+ls
+ls -a
+cd public_html/
+ls
+ls -a
+cd
