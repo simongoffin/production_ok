@@ -51,7 +51,7 @@ def home(request):
             tuple=(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9)
             resultat=run(tuple)
             longueur_r=len(resultat)
-            if longueur_r>0:
+            if longueur_r>0 and not resultat[0]=='':
                 solution=True
                 res=resultat[random.randrange(0,longueur_r)]
                 try:

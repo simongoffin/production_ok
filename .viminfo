@@ -43,7 +43,7 @@
 	#
 
 # File marks:
-'0  54  27  ~/poleposition/game/views.py
+'0  54  50  ~/poleposition/game/views.py
 '1  60  50  ~/poleposition/templates/challenge/next_chiffres.html
 '2  1  0  ~/.ssh/id_rsa.pub
 '3  11  55  ~/poleposition/chiffres/forms.py
@@ -55,7 +55,7 @@
 '9  1  0  ~/poleposition/connexion/urls.py
 
 # Jumplist (newest first):
--'  54  27  ~/poleposition/game/views.py
+-'  54  50  ~/poleposition/game/views.py
 -'  1  0  ~/poleposition/game/views.py
 -'  60  50  ~/poleposition/templates/challenge/next_chiffres.html
 -'  1  0  ~/poleposition/templates/challenge/next_chiffres.html
@@ -152,16 +152,15 @@
 -'  14  43  ~/poleposition/Letters/urls.py
 -'  1  0  ~/poleposition/Letters/urls.py
 -'  1  14  ~/poleposition/README.md
--'  1  14  ~/poleposition/README.md
--'  14  43  ~/poleposition/Letters/urls.py
 
 # History of marks within files (newest to oldest):
 
 > ~/poleposition/game/views.py
-	"	54	27
-	^	54	28
-	.	55	0
+	"	54	50
+	^	54	51
+	.	54	50
 	+	55	0
+	+	54	50
 
 > ~/poleposition/templates/challenge/next_chiffres.html
 	"	60	50
