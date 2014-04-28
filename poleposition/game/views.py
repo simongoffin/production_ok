@@ -28,6 +28,7 @@ def home(request):
     from Algo.core import run
     from Algo.parser import requete_mot
     import sys
+    import random
     solution=False
     if request.method == 'POST':  # S'il s'agit d'une requête POST
         form = LettersForm(request.POST)  # Nous reprenons les données
@@ -49,9 +50,10 @@ def home(request):
                 return render(request, 'game/home.html',locals())
             tuple=(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9)
             resultat=run(tuple)
-            if len(resultat)>0:
+            longueur_r=len(resultat)
+            if longueur_r>0:
                 solution=True
-                res=resultat[0]
+                res=resultat[random.randrange(0,longueur_r)]
                 try:
                     definition= requete_mot(res)
                 except:

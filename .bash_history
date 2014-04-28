@@ -1018,3 +1018,21 @@ cd public_html/
 ls
 ls -a
 cd
+ls
+cd poleposition/
+ls
+cd templates/
+ls
+cd chiffres/
+ls
+cd ../
+ls
+cd challenge/
+ls
+vim next_chiffres.html 
+cd
+init/poleposition restart
+ls -a
+git commit -a
+git push
+ls

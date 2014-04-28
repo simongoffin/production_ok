@@ -38,10 +38,10 @@ class LettresProblem(Problem):
                             newmove=newmove+(valeur1+valeur2,)
                             if check[1]>self.taille:
                                 self.taille=check[1]
-                                self.solution=[]
-                                self.solution.append(check[2])
+                                self.solution=check[2]
                             elif check[1]==self.taille:
-                                self.solution.append(check[2])
+                                for seq in check[2]:
+                                    self.solution.append(seq)
                             etape=valeur1+' '+'+'+' '+valeur2+' '+'='+' '+valeur1+valeur2
                             yield (etape,newmove)
                         else: continue
@@ -50,11 +50,22 @@ def possible(valeur1,valeur2,taille):
     seq=valeur1+valeur2
     if seq in dic:
         if len(seq)>=taille and seq in box:
-            MOT=dict_full[box[seq]]
-            return [True,len(seq),MOT]
+            tab=dico_mots(seq)
+            return [True,len(seq),tab]
         return [True,-1,valeur1+valeur2]
     else:
         return [False,-1,'']
+        
+def dico_mots(seq):
+    res=[]
+    index=box[seq]
+    res.append(dict_full[index])
+    index=index-1
+    while not index in box.values() and index>=0:
+        res.append(dict_full[index])
+        index=index-1
+    return res
+    
         
 def run(tuple):
     problem=LettresProblem(tuple)
